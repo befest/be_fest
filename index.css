@@ -1,0 +1,981 @@
+
+
+/*ORDEM DAS ESTILIZAÇÕES
+1º - HEADER
+2º - SEARCH-INPUTS
+3º - MAIN*/
+/*Estilizações extra iniciada*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+}
+body{
+    padding-top: 120px;
+}
+/*Estilizações extra finalizada*/
+
+/*HEADER INICIADO iniciado*/
+
+.header{
+    /*espaçamento*/
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*estilização*/
+    background-color: #ff0080;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.logo-header{
+    /*espaçamento*/
+    width: 25vh;
+    height: 25vh;
+    padding-bottom: 0;
+    margin: 0;
+}
+.navheaderitens{
+    /*espaçamento*/
+    display: flex;
+    gap: 20px;
+}
+.headeritens{
+    /*estilização*/
+    text-decoration: none;
+    color: white;
+    /*espaçamento*/
+    padding: 5px;
+}
+.headeritens:hover{
+    /*estilização*/
+    border-bottom: 2px solid white;
+}
+.navheaderbtns{
+    /*espaçamento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.headerbtn1{
+    /*estilização*/
+    color: #a30044;
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+.headerbtn1:hover{
+    /*estilização*/
+    color: white;
+    /*responsividade*/
+    transition: 0.5s;
+}
+.headerbtn2{
+    /*estilização*/
+    padding: 15px;
+    background-color: #8b0046;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+.headerbtn2:active{
+    /*estilização*/
+    background-color: #8b0046;
+    /*responsividade*/
+    transition: 0.1s;
+}
+/*HEADER FINALIZADO*/
+
+/*SEARCH-INPUTS INICIADO*/
+.search-inputs{
+    /*espaçamento*/
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding-top: 10vh ;
+    /*estilização*/
+    background-color: whitesmoke;
+}
+.text-and-search{
+    /*espaçamento*/
+    text-align: center;
+    /*estilização*/
+}
+.inputs{
+    /*espaçamento*/
+    display: flex;
+}
+.festsearch{
+    /*espaçamento*/
+    width: 129vh;
+    height: 6vh;
+    margin-top: 8vh;
+    margin-right: 1vh;
+    padding: 1.5vh;
+    /*estilização*/
+    border: 1px solid transparent;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+		box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+    border-radius: 10px;
+}
+.buscar{
+    /*espaçamento*/
+    width: 12vh;
+    height: 6vh;
+    margin-top: 8vh;
+    /*estilização*/
+    background-color: #ff0080;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    color: white;
+}
+
+/*inputs iniciado*/
+
+.inputs{
+    /*espaçamento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*estilização*/
+    background-color: whitesmoke;
+}
+/*inputs finalizado*/
+/*SEARCH-INPUTS FINALIZADO*/
+
+/*MAIN INICIADO*/
+
+main{
+    /*espaçamento*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container{
+    /*espaçamento*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: -5vh;
+    /*responsividad e*/
+    flex-wrap: wrap;
+}
+.item{
+    /*espaçamento*/
+    width: 70vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 2.5vh;
+    /*estilização*/
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 10px; 
+    
+}
+.item:hover{
+    width: 71vh;
+    height: 36vh;
+    transition: 0.5s;
+    -webkit-box-shadow: 9px 7px 5px rgba(163, 163, 163, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(156, 156, 156, 0.932);
+		box-shadow:         9px 7px 5px rgba(156, 156, 156, 0.932);
+
+}
+.item1{
+    /*estilização*/
+    background-color: rgb(255, 0, 0);
+}
+.item2{
+    /*estilização*/
+    background-color: orangered;
+}
+.item3{
+    /*estilização*/
+    background-color: rgb(0, 184, 0);
+}
+.item4{
+    /*estilização*/
+    background-color: blue;
+}
+.partedebaixo{
+    /*espaçamento*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.seemore{
+    /*espaçamento*/
+    width: 20vh;
+    height: 7vh;
+    padding: 10px;
+    /*estilização*/
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 10px;
+}
+.seemore1{
+    /*estilização*/
+    background-color: rgb(160, 0, 0);
+}
+.seemore2{
+    /*estilização*/
+    background-color: rgb(160, 43, 0);
+}
+.seemore3{
+    /*estilização*/
+    background-color: green;
+}
+.seemore4{
+    /*estilização*/
+    background-color: rgb(0, 0, 160);
+}
+.logo-apresentativa{
+    /*espaçamento*/
+    width: 40vh;
+    height: 30vh;
+}
+
+/*CONTAINER-TUTORIAL INICIADO*/
+    /*Colocar uma barra de rolagem*/
+     
+.tutorial{
+    /*espaçamento*/
+    width: 100%;
+    margin: 15vh;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /*estilização*/
+
+}
+.tit-tutorial{
+    /*espaçamento*/
+    display: flex;
+    justify-content: center;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.container-tutorial{
+    /*espaçamento*/
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 0vh;
+    margin-bottom: 25vh;
+
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.tutorialitem{
+    /*espaçamento*/
+    width: 30%;
+    margin-right: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.image-tutorial{
+    width: 35%;
+    height: auto;
+
+}
+.title-tutorial{
+    /*espaçamento*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20pt;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.p-tutorial{
+    /*espaçamento*/
+    display: flex;
+    text-align: center;
+    font-size: 12pt;
+    height: 300px;
+    padding: 10px;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+/*CONTAINER-TUTORIAL FINALIZADO*/
+
+
+/*CONTAINER-OFERTAS INICIADO*/
+.container-ofertas{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+    
+}
+.title-ofertas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+}
+.img-rolagem{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.scrollimg{
+    width: 50%;
+    height: 50vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 30px; 
+}
+.scrollimg:hover{
+    width: 51%;
+    height: 51vh;
+    -webkit-box-shadow: 9px 7px 5px rgba(163, 163, 163, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(156, 156, 156, 0.932);
+		box-shadow:         9px 7px 5px rgba(156, 156, 156, 0.932);
+}
+::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+
+/*CONTAINER-OFERTAS FINALIZADO*/
+
+
+
+/*CONTAINER-MENU INICIADO*/
+    /*Colocar uma barra de rolagem*/
+
+.container-menu{
+    /*espaçamento*/
+    width: 100%;
+    margin-top: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+.container-menu-title{
+    /*espaçamento*/
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.minimenus{
+    /*espaçamento*/
+    display: flex;
+    flex-direction: column;
+}
+.mini-itens{
+    /*espaçamento*/
+    display: flex;
+    justify-content: center;
+    /*responsividade*/
+    flex-wrap: wrap;
+}
+.titulo-minimenu{
+    /*espaçamento*/
+    margin: 0px;
+    
+}
+.mini-item{
+    /*espaçamento*/
+    width: 30%;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    /*estilização*/
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.minimenu-img{
+    width: 27.5%;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+
+}
+.minimenutitulo{
+    /*estilização*/
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+/*CONTAINER-MENU FINALIZADO*/
+
+
+/*FOOTER INICIADO*/
+.footer{
+    /*espaçamento*/
+    width: 100%;
+    height: 75vh;
+    margin-top: 200vh;
+    bottom: 0vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.partedecimafooter{
+    /*espaçamento*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*estilização*/
+    background-color: #8b0046;
+
+}
+.befestimg{
+    /*espaçamento*/
+    width: 25%;
+    height: auto;
+    margin-top: 0vh;
+    margin-left: 5vh;
+}
+.barradeseparação{
+    /*espaçamento*/
+    margin-top: -2.5vh;
+}
+.redessociais{
+    /*espaçamento*/
+    margin-right: 5vh;
+}
+.itemrs{
+    /*espaçamento*/
+    height: 20%;
+    width: 40%;
+    margin: 1vh;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    padding: 2.5vh;
+    /*estilização*/
+    color: #fff;
+}
+.facebook{
+    /*espaçamento*/
+    border-radius: 100%;
+    /*estilização*/
+    background-color: #3b5998;
+}
+.facebook:hover{
+    /*hover-estilização*/
+    background-color: white;
+    color: #3b5998;
+    transition: all 0.5s ease-in;
+}
+.twitter{
+    /*estilização*/
+    background-color: #00acee;
+}
+.twitter:hover{
+    /*hover-estilização*/
+    background-color: white;
+    color: #00acee;
+    transition: all 0.5s ease-in;
+}
+.instagram{
+    /*estilização*/
+    background-color: #E1306C;
+}
+.instagram:hover{
+    /*hover-estilização*/
+    background-color: white;
+    color: #E1306C;
+    transition: all 0.5s ease-in;
+}
+.whatsapp{
+    /*estilização*/
+    background-color: #25D366;
+}
+.whatsapp:hover{
+    /*hover-estilização*/
+    background-color: white;
+    color: #25D366;
+    transition: all 0.5s ease-in;
+}
+.youtube{
+    /*estilização*/
+    background-color: #C4302B;
+}
+.youtube:hover{
+    /*hover-estilização*/
+    background-color: white;
+    color: #C4302B;
+    transition: all 0.5s ease-in;
+}
+.meiofooter{
+    /*espaçamento*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    /*estilização*/
+    background-color: #8b0046;
+    
+}
+.footertopicos{
+    /*espaçamento*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.titulofooter{
+    /*espaçamento*/
+    position: relative;
+    display: inline-block;
+    font-size: 15pt;
+    margin-bottom: 3vh;
+    /*estilização*/
+    color: white;
+    border: 1px solid transparent;
+}
+.titulofooter::after{
+    /*espaçamento*/
+    width: 40%;
+    height: 0.1em; 
+    content: "";
+    position: absolute;
+    top: 110%; 
+    left: 0;
+    /*estilização*/ 
+    background-color: white;
+
+}
+.text-item-footer{
+    /*espaçamento*/
+    margin-bottom: 1vh;
+    color: white;
+    opacity: 65%;
+    /*estilização*/
+    border: 1px solid transparent;
+
+}
+.text-item-footer:hover{
+    /*estilização*/
+    color: white;
+    opacity: 100%;
+}
+.list-item-footer{
+    /*estilização*/
+    list-style: none;
+    text-decoration: none;
+}
+.inputfooter{
+    /*espaçamento*/
+    width: 150%;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding: 5px;
+    /*estilização*/
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(206, 172, 172);
+
+}
+.inputfooter::placeholder{
+    /*espaçamento*/
+    text-align: left;
+    /*estilização*/
+    color: white;
+}
+.entrarfooter{
+    /*estilização*/
+    background-color: white;
+    color: #8b0046;
+    border: none;
+}
+.entrarfooter:active{
+    /*estilização*/
+    background-color: aliceblue;
+}
+.rodapefooter{
+    /*espaçamento*/
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vh;
+    /*estilização*/
+    background-color:#3d001f;
+    
+}
+.escritosfooter{
+    /*espaçamento*/
+    margin-right: 10vh;
+    font-size: 10pt;
+    /*estilização*/
+    color : white;
+    border: 1px solid transparent;
+}
+.escritosfooter:hover{
+    /*estilização*/
+    border-bottom: 1px solid white;
+
+}
+
+
+
+
+/*FOOTER FINALIZADO*/
+
+@media (min-width: 320px ) and (max-width: 425px){
+    .body{
+        padding-top: 350px;
+    }
+    .navheaderitens{
+        display: none;
+    }
+    .headerbtn1{
+        display: none;
+    }
+    .container-menu-title{
+        text-align: center;
+    }
+    .partedebaixo{
+        width: 71%;
+    }
+    .seemore{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 8pt;
+        
+    }
+    .search-inputs{
+        width: 100%;
+        margin-top: -6vh;
+        margin-bottom: 10vh;
+        height: 60vh;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;     
+    }
+    .festsearch{
+        width: 70%;
+        border-radius: 5px;
+    }
+    .buscar{
+        width: 70%;
+        margin-top: 2vh;
+        border-radius: 5px;
+        
+    }
+    .p-tutorial{
+        display: none;
+    }
+    .tutorialitem{
+        /*espaçamento*/
+        margin-bottom: 010vh;
+    }
+    .container-tutorial,.tit-tutorial{
+        /*espaçamento*/
+        display: none;
+       
+    }
+    .mini-item{
+        /*espaçamento*/
+        width: 80%;
+    }
+    .minimenutitulo{
+        /*espaçamento*/
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .minimenu-img{
+        /*espaçamento*/
+        width: auto;
+    }
+    .item{
+        width: 42%;
+        height: 30vh;
+    }
+    .item:hover{
+        width: 43%;
+        height: 31vh;
+    }
+    .title1{
+        font-size: 12pt;
+    }
+    .title{
+        font-size: 16pt;
+        margin-bottom: 2vh;
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;
+    }
+    .subtitle{
+        font-size: 8pt;
+        padding-right: 1vh;
+        padding-left: 1vh;
+    }
+    .scrollimg{
+        width: 20%;
+        height: 50vh;
+        margin-right: 5vh;
+    }
+    .scrollimg{
+        width: 30%;
+        height: 30vh;
+        margin-right: 5vh;
+    }
+    .scrollimg:hover{
+        /*espaçamento*/
+        width: 31%;
+        height: 31vh;
+        -webkit-box-shadow: 9px 7px 5px rgba(163, 163, 163, 0.932);
+            -moz-box-shadow:    9px 7px 5px rgba(156, 156, 156, 0.932);
+            box-shadow:         9px 7px 5px rgba(156, 156, 156, 0.932);
+    }
+    .footer{
+        margin-top: 290vh;
+    }
+    .partedecimafooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fest-logo{
+        display: flex;
+        justify-content: center;
+        margin-right: 10vh;
+        margin-bottom: 1vh;
+    }
+    .redessociais{
+        margin-bottom: 10vh;
+    }
+    .footertopicos{
+        margin: 3vh;
+    }
+    .titulofooter{
+        font-size: 8pt;
+    }
+    .inputfooter{
+        width: 90%;
+    }
+    .inputfooter::placeholder{
+        font-size: 6pt;
+    }
+    .text-item-footer{
+        font-size: 6pt;
+
+    }
+
+    
+}
+
+
+
+
+
+@media (min-width: 426px) and (max-width: 767px ){
+    .body{
+        padding-top: 1000px;
+    }
+    .navheaderitens{
+        display: none;
+    }
+    .item{
+        width: 42%;
+        height: 30vh;
+    }
+    .item:hover{
+        width: 43%;
+        height: 31vh;
+    }
+    .festsearch{
+        width: 70%;
+    }
+    .search-inputs{
+        margin-top: 0vh;
+    }
+    .tutorialitem{
+        /*espaçamento*/
+        margin-bottom: -30vh;
+    }
+    .container-tutorial{
+        /*espaçamento*/
+        margin-bottom: 80vh;
+    }
+    .title1{
+        font-size: 20pt;
+    }
+    .mini-item{
+        width: 45%;
+    }
+    .minimenutitulo{
+        font-size: 8pt;
+    }
+    .minimenu-img{
+        width: auto;
+    }
+    .scrollimg{
+        width: 30%;
+        height: 30vh;
+        margin-right: 5vh;
+    }
+    .scrollimg:hover{
+        width: 31%;
+        height: 31vh;
+        -webkit-box-shadow: 9px 7px 5px rgba(163, 163, 163, 0.932);
+            -moz-box-shadow:    9px 7px 5px rgba(156, 156, 156, 0.932);
+            box-shadow:         9px 7px 5px rgba(156, 156, 156, 0.932);
+    }
+    ::-webkit-scrollbar-thumb{
+        display: none;
+        
+    }
+    .footer{
+        margin-top: 290vh;
+    }
+    .partedecimafooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fest-logo{
+        display: flex;
+        justify-content: center;
+        margin-right: 10vh;
+        margin-bottom: 1vh;
+    }
+    .redessociais{
+        margin-bottom: 10vh;
+    }
+    .footertopicos{
+        margin: 5vh;
+    }
+    .titulofooter{
+        font-size: 10pt;
+    }
+    .inputfooter{
+        width: 90%;
+    }
+    .text-item-footer{
+        font-size: 8pt;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 958px ){
+    .item{
+        width: 42%;
+        height: 30vh;
+    }
+    .item:hover{
+        width: 43%;
+    }
+    .festsearch{
+        width: 70%;
+    }
+    .search-inputs{
+        margin-top: 0vh;
+    }
+    .tutorialitem{
+        /*espaçamento*/
+        margin-bottom: -20vh;
+    }
+    .container-tutorial{
+        /*espaçamento*/
+        margin-bottom: 80vh;
+    }
+    .minimenu-img{
+        width: auto;
+    }
+    .container-ofertas{
+        margin-top: 15vh;
+    }
+
+    .footer{
+        margin-top: 330vh;
+    }
+    .partedecimafooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fest-logo{
+        display: flex;
+        justify-content: center;
+        margin-right: 10vh;
+        margin-bottom: 1vh;
+    }
+    .redessociais{
+        margin-bottom: 10vh;
+    }
+    .footertopicos{
+        margin: 5vh;
+    }
+    .titulofooter{
+        font-size: 10pt;
+    }
+    .inputfooter{
+        width: 90%;
+    }
+    .text-item-footer{
+        font-size: 8pt;
+
+    }
+
+}
+@media (min-width: 959px) and (max-width: 1024px ){
+    .minimenu-img{
+        width: auto;
+    }
+
+}
+
+
+
+
